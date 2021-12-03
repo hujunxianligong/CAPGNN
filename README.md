@@ -1,5 +1,8 @@
 # CAPGNN
-Source code and dataset of the paper "Contrastive Adaptive Propagation Graph Neural Networks forEfficient Graph Learning"
+Source code and dataset of the paper ["Contrastive Adaptive Propagation Graph Neural Networks forEfficient Graph Learning"](https://arxiv.org/abs/2112.01110)
+
+
+Paper URL: [https://arxiv.org/abs/2112.01110](https://arxiv.org/abs/2112.01110)
 
 
 ## Requirements
@@ -31,4 +34,18 @@ The command will run CAPGAT for multiple times and outputs the results in result
 
 ```shell
 sh run_capgnn_cora.sh CAPGAT 0
+```
+
+
+## Cite
+
+```html
+@misc{hu2021contrastive,
+      title={Contrastive Adaptive Propagation Graph Neural Networks for Efficient Graph Learning}, 
+      author={Jun Hu and Shengsheng Qian and Quan Fang and Changsheng Xu},
+      year={2021},
+      eprint={2112.01110},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
